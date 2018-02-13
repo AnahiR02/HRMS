@@ -47,6 +47,7 @@
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.50508.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
@@ -68,6 +69,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Hrms.Formularios\" />
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
@@ -93,6 +95,198 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Hrms.Scripts\admin.js" />
+    <Content Include="Hrms.Scripts\AJAX\AjaxControlToolkit.dll" />
+    <Content Include="Hrms.Scripts\AJAX\AjaxControlToolkit.pdb" />
+    <Content Include="Hrms.Scripts\AJAX\ar\AjaxControlToolkit.resources.dll" />
+    <Content Include="Hrms.Scripts\AJAX\cs\AjaxControlToolkit.resources.dll" />
+    <Content Include="Hrms.Scripts\AJAX\de\AjaxControlToolkit.resources.dll" />
+    <Content Include="Hrms.Scripts\AJAX\es\AjaxControlToolkit.resources.dll" />
+    <Content Include="Hrms.Scripts\AJAX\fr\AjaxControlToolkit.resources.dll" />
+    <Content Include="Hrms.Scripts\AJAX\he\AjaxControlToolkit.resources.dll" />
+    <Content Include="Hrms.Scripts\AJAX\hi\AjaxControlToolkit.resources.dll" />
+    <Content Include="Hrms.Scripts\AJAX\it\AjaxControlToolkit.resources.dll" />
+    <Content Include="Hrms.Scripts\AJAX\ja\AjaxControlToolkit.resources.dll" />
+    <Content Include="Hrms.Scripts\AJAX\ko\AjaxControlToolkit.resources.dll" />
+    <Content Include="Hrms.Scripts\AJAX\LICENSE.txt" />
+    <Content Include="Hrms.Scripts\AJAX\nl\AjaxControlToolkit.resources.dll" />
+    <Content Include="Hrms.Scripts\AJAX\pt\AjaxControlToolkit.resources.dll" />
+    <Content Include="Hrms.Scripts\AJAX\ReadMe.html" />
+    <Content Include="Hrms.Scripts\AJAX\ru\AjaxControlToolkit.resources.dll" />
+    <Content Include="Hrms.Scripts\AJAX\tr-TR\AjaxControlToolkit.resources.dll" />
+    <Content Include="Hrms.Scripts\AJAX\zh-CHS\AjaxControlToolkit.resources.dll" />
+    <Content Include="Hrms.Scripts\AJAX\zh-CHT\AjaxControlToolkit.resources.dll" />
+    <Content Include="Hrms.Scripts\demo.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\bootstrap-select.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\bootstrap-select.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-ar_AR.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-ar_AR.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-bg_BG.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-bg_BG.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-cro_CRO.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-cro_CRO.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-cs_CZ.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-cs_CZ.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-da_DK.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-da_DK.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-de_DE.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-de_DE.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-en_US.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-en_US.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-es_CL.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-es_CL.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-eu.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-eu.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-fa_IR.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-fa_IR.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-fi_FI.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-fi_FI.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-fr_FR.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-fr_FR.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-hu_HU.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-hu_HU.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-id_ID.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-id_ID.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-it_IT.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-it_IT.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-ko_KR.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-ko_KR.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-lt_LT.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-lt_LT.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-nb_NO.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-nb_NO.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-nl_NL.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-nl_NL.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-pl_PL.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-pl_PL.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-pt_BR.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-pt_BR.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-pt_PT.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-pt_PT.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-ro_RO.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-ro_RO.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-ru_RU.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-ru_RU.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-sk_SK.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-sk_SK.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-sl_SI.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-sl_SI.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-sv_SE.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-sv_SE.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-tr_TR.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-tr_TR.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-ua_UA.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-ua_UA.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-zh_CN.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-zh_CN.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-zh_TW.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\i18n\defaults-zh_TW.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap\bootstrap.js" />
+    <Content Include="Hrms.Scripts\Plugins\Editable-table\editable-table.js" />
+    <Content Include="Hrms.Scripts\Plugins\Editable-table\mindmup-editabletable.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Datatable\extensions\export\buttons.flash.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Datatable\extensions\export\buttons.html5.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Datatable\extensions\export\buttons.print.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Datatable\extensions\export\dataTables.buttons.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Datatable\extensions\export\jszip.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Datatable\extensions\export\pdfmake.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Datatable\extensions\export\vfs_fonts.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Datatable\jquery-datatable.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Datatable\jquery.dataTables.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Datatable\skin\bootstrap\css\dataTables.bootstrap.css" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Datatable\skin\bootstrap\css\dataTables.bootstrap.min.css" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Datatable\skin\bootstrap\images\favicon.ico" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Datatable\skin\bootstrap\images\sort_asc.png" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Datatable\skin\bootstrap\images\sort_asc_disabled.png" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Datatable\skin\bootstrap\images\sort_both.png" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Datatable\skin\bootstrap\images\sort_desc.png" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Datatable\skin\bootstrap\images\sort_desc_disabled.png" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Datatable\skin\bootstrap\js\dataTables.bootstrap.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Datatable\skin\bootstrap\js\dataTables.bootstrap.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-slimscroll\jquery.slimscroll.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\additional-methods.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\jquery.validate.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_ar.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_bg.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_bn_BD.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_ca.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_cs.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_da.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_de.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_el.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_es.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_es_AR.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_es_PE.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_et.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_eu.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_fa.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_fi.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_fr.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_ge.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_gl.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_he.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_hr.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_hu.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_hy_AM.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_id.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_is.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_it.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_ja.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_ka.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_kk.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_ko.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_lt.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_lv.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_mk.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_my.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_nl.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_no.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_pl.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_pt_BR.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_pt_PT.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_ro.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_ru.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_si.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_sk.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_sl.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_sr.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_sr_lat.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_sv.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_th.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_tj.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_tr.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_uk.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_vi.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_zh.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_zh_TW.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\methods_de.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\methods_es_CL.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\methods_fi.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\methods_nl.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\methods_pt.js" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery\jquery.min.js" />
+    <Content Include="Hrms.Scripts\Plugins\multi-select\css\multi-select.css" />
+    <Content Include="Hrms.Scripts\Plugins\multi-select\img\switch.png" />
+    <Content Include="Hrms.Scripts\Plugins\multi-select\js\jquery.multi-select.js" />
+    <Content Include="Hrms.Scripts\Plugins\Waves\waves.js" />
+    <Content Include="Hrms.Scripts\sign-in.js" />
+    <Content Include="Hrms.Temas\all-themes.css" />
+    <Content Include="Hrms.Temas\GoogleFonts\MaterialIcons.css" />
+    <Content Include="Hrms.Temas\GoogleFonts\Roboto.css" />
+    <Content Include="Hrms.Temas\Imagenes\avatar_hombre.jpg" />
+    <Content Include="Hrms.Temas\Imagenes\Firma.png" />
+    <Content Include="Hrms.Temas\Imagenes\img-calendario.png" />
+    <Content Include="Hrms.Temas\Imagenes\IPUIcon.ico" />
+    <Content Include="Hrms.Temas\Imagenes\LogoIPU.png" />
+    <Content Include="Hrms.Temas\materialize.css" />
+    <Content Include="Hrms.Temas\Plugins\Animate\animate.css" />
+    <Content Include="Hrms.Temas\Plugins\Bootstrap-fileinput\fileinput.css" />
+    <Content Include="Hrms.Temas\Plugins\Bootstrap-Select\bootstrap-select.css" />
+    <Content Include="Hrms.Temas\Plugins\Bootstrap-Select\bootstrap-select.min.css" />
+    <Content Include="Hrms.Temas\Plugins\Bootstrap\bootstrap.css" />
+    <Content Include="Hrms.Temas\Plugins\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Hrms.Temas\Plugins\Waves\waves.css" />
+    <Content Include="Hrms.Temas\style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -125,6 +319,15 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Hrms.Scripts\AJAX\AjaxControlToolkitSampleSite.zip" />
+    <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\bootstrap-select.js.map" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Datatable\skin\bootstrap\images\Sorting icons.psd" />
+    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_az" />
+    <Content Include="Hrms.Temas\Plugins\Bootstrap-Select\bootstrap-select.css.map" />
+    <Content Include="Hrms.Temas\Plugins\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Hrms.Temas\Plugins\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Hrms.Temas\Plugins\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Hrms.Temas\Plugins\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
