@@ -1,0 +1,86 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Planillas.master.vb" Inherits="IPU.SistemaRRHH.Planillas" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>IPU - Sistema de Gestión de Recursos Humanos</title>
+    <link rel="icon" href="../Hrms.Temas/Imagenes/IPUIcon.ico" type="image/x-icon" />
+
+
+    <link href="../Hrms.Temas/GoogleFonts/MaterialIcons.css" rel="stylesheet" />
+    <link href="../Hrms.Temas/GoogleFonts/Roboto.css" rel="stylesheet" />
+    <link href="../Hrms.Temas/Plugins/Bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="../Hrms.Temas/Plugins/Waves/waves.css" rel="stylesheet" />
+    <link href="../Hrms.Temas/Plugins/Animate/animate.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="Head" runat="server">
+    </asp:ContentPlaceHolder>
+      <link href="../Hrms.Scripts/Plugins/Jquery-Datatable/skin/bootstrap/css/dataTables.bootstrap.css" rel="stylesheet" />
+    <link href="../Hrms.Temas/Plugins/Bootstrap-Select/bootstrap-select.css" rel="stylesheet" />
+    <link href="../Hrms.Temas/style.css" rel="stylesheet" />
+    <link href="../Hrms.Temas/all-themes.css" rel="stylesheet" />
+</head>
+<body class="theme-indigo">
+      <div class="page-loader-wrapper">
+        <div class="loader">
+            <div class="preloader">
+                <div class="spinner-layer pl-red">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+            <p>Cargando...</p>
+        </div>
+    </div>
+
+     <!-- Top Bar -->
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                
+                <a class="navbar-brand" href="#">INPREUNAH - Gestión de Recursos Humanos</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                     <%-- <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                            <i class="material-icons">build</i>
+                        </a>
+                    </li>--%>
+                    <li class="pull-right"><a href="Planillas.aspx" class="js-right-sidebar" data-close="true"><i class="material-icons">reply</i></a>
+                         
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
+    </nav>
+    <!-- #Top Bar -->
+
+     <section class="content" style="margin-left: 15px;">
+        <div class="container-fluid">
+            <div class="block-header">
+                <asp:ContentPlaceHolder ID="TituloModulo" runat="server"></asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <asp:ContentPlaceHolder ID="ContenidoPrincipal" runat="server"></asp:ContentPlaceHolder>
+    </section>
+
+
+    <script src="../Hrms.Scripts/Plugins/Jquery/jquery.min.js"></script>
+    <script src="../Hrms.Scripts/Plugins/Bootstrap/bootstrap.js"></script>
+    <script src="../Hrms.Scripts/Plugins/Bootstrap-select/bootstrap-select.js"></script>
+    <script src="../Hrms.Scripts/Plugins/Waves/waves.js"></script>
+
+    <asp:ContentPlaceHolder ID="Scripts" runat="server"></asp:ContentPlaceHolder>
+        <script src="../Hrms.Scripts/admin.js"></script>
+
+</body>
+</html>

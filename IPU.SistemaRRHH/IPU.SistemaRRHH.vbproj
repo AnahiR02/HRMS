@@ -68,9 +68,7 @@
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Hrms.Formularios\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
     <Import Include="System" />
@@ -95,6 +93,16 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Hrms.Formularios\Dashboard.aspx" />
+    <Content Include="Hrms.Formularios\Empleados.aspx" />
+    <Content Include="Hrms.Formularios\Login.aspx" />
+    <Content Include="Hrms.Formularios\Planillas.aspx" />
+    <Content Include="Hrms.Formularios\Planillas.EmpleadosContrato.aspx" />
+    <Content Include="Hrms.Formularios\Planillas.EmpleadosPermanentes.aspx" />
+    <Content Include="Hrms.Formularios\Planillas.IAIPContrato.aspx" />
+    <Content Include="Hrms.Formularios\Planillas.IAIPPermanentes.aspx" />
+    <Content Include="Hrms.Formularios\Planillas.INJUPEMP.aspx" />
+    <Content Include="Hrms.Formularios\Planillas.SIREP.aspx" />
     <Content Include="Hrms.Scripts\admin.js" />
     <Content Include="Hrms.Scripts\AJAX\AjaxControlToolkit.dll" />
     <Content Include="Hrms.Scripts\AJAX\AjaxControlToolkit.pdb" />
@@ -290,6 +298,90 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Hrms.Formularios\Dashboard.aspx.designer.vb">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hrms.Formularios\Dashboard.aspx.vb">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Hrms.Formularios\Empleados.aspx.designer.vb">
+      <DependentUpon>Empleados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hrms.Formularios\Empleados.aspx.vb">
+      <DependentUpon>Empleados.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Hrms.Formularios\Hrms.Master.designer.vb">
+      <DependentUpon>Hrms.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Hrms.Formularios\Hrms.Master.vb">
+      <DependentUpon>Hrms.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hrms.Formularios\Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hrms.Formularios\Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Hrms.Formularios\Planillas.aspx.designer.vb">
+      <DependentUpon>Planillas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hrms.Formularios\Planillas.aspx.vb">
+      <DependentUpon>Planillas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Hrms.Formularios\Planillas.EmpleadosContrato.aspx.designer.vb">
+      <DependentUpon>Planillas.EmpleadosContrato.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hrms.Formularios\Planillas.EmpleadosContrato.aspx.vb">
+      <DependentUpon>Planillas.EmpleadosContrato.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Hrms.Formularios\Planillas.EmpleadosPermanentes.aspx.designer.vb">
+      <DependentUpon>Planillas.EmpleadosPermanentes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hrms.Formularios\Planillas.EmpleadosPermanentes.aspx.vb">
+      <DependentUpon>Planillas.EmpleadosPermanentes.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Hrms.Formularios\Planillas.IAIPContrato.aspx.designer.vb">
+      <DependentUpon>Planillas.IAIPContrato.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hrms.Formularios\Planillas.IAIPContrato.aspx.vb">
+      <DependentUpon>Planillas.IAIPContrato.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Hrms.Formularios\Planillas.IAIPPermanentes.aspx.designer.vb">
+      <DependentUpon>Planillas.IAIPPermanentes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hrms.Formularios\Planillas.IAIPPermanentes.aspx.vb">
+      <DependentUpon>Planillas.IAIPPermanentes.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Hrms.Formularios\Planillas.INJUPEMP.aspx.designer.vb">
+      <DependentUpon>Planillas.INJUPEMP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hrms.Formularios\Planillas.INJUPEMP.aspx.vb">
+      <DependentUpon>Planillas.INJUPEMP.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Hrms.Formularios\Planillas.Master.designer.vb">
+      <DependentUpon>Planillas.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Hrms.Formularios\Planillas.Master.vb">
+      <DependentUpon>Planillas.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hrms.Formularios\Planillas.SIREP.aspx.designer.vb">
+      <DependentUpon>Planillas.SIREP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hrms.Formularios\Planillas.SIREP.aspx.vb">
+      <DependentUpon>Planillas.SIREP.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -328,6 +420,8 @@
     <Content Include="Hrms.Temas\Plugins\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Hrms.Temas\Plugins\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Hrms.Temas\Plugins\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Hrms.Formularios\Hrms.Master" />
+    <Content Include="Hrms.Formularios\Planillas.Master" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
