@@ -265,6 +265,7 @@
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Hrms.Formularios\Modulos\modSeguridad.vb" />
     <Compile Include="Hrms.Formularios\Planillas.aspx.designer.vb">
       <DependentUpon>Planillas.aspx</DependentUpon>
     </Compile>

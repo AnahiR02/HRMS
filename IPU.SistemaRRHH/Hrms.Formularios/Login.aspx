@@ -38,7 +38,6 @@
                         </span>
                         <div class="form-line">
                             <asp:TextBox ID="txtUsuario" runat="server" CssClass="form-control" placeholder="Usuario"></asp:TextBox>
-
                         </div>
                         <asp:RequiredFieldValidator ID="RFV1" runat="server"
                             ControlToValidate="txtUsuario"

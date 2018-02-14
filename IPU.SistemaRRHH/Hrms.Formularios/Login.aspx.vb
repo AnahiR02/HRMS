@@ -5,4 +5,22 @@
 
     End Sub
 
+    Private Sub btnIniciarSesion_Click(sender As Object, e As EventArgs) Handles btnIniciarSesion.Click
+
+        Dim bInicioValidado As Boolean = False
+
+        Try
+            If bInicioValidado = SeguridadControl.VerificarUsuario(txtUsuario.Text, txtContraseña.Text) Then
+
+            End If
+
+
+        Catch ex As Exception
+
+        End Try
+
+
+
+
+    End Sub
 End Class
