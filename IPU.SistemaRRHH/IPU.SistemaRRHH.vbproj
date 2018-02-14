@@ -211,66 +211,6 @@
     <Content Include="Hrms.Scripts\Plugins\Jquery-Datatable\skin\bootstrap\js\dataTables.bootstrap.js" />
     <Content Include="Hrms.Scripts\Plugins\Jquery-Datatable\skin\bootstrap\js\dataTables.bootstrap.min.js" />
     <Content Include="Hrms.Scripts\Plugins\Jquery-slimscroll\jquery.slimscroll.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\additional-methods.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\jquery.validate.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_ar.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_bg.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_bn_BD.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_ca.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_cs.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_da.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_de.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_el.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_es.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_es_AR.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_es_PE.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_et.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_eu.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_fa.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_fi.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_fr.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_ge.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_gl.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_he.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_hr.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_hu.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_hy_AM.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_id.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_is.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_it.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_ja.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_ka.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_kk.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_ko.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_lt.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_lv.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_mk.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_my.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_nl.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_no.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_pl.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_pt_BR.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_pt_PT.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_ro.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_ru.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_si.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_sk.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_sl.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_sr.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_sr_lat.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_sv.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_th.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_tj.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_tr.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_uk.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_vi.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_zh.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_zh_TW.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\methods_de.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\methods_es_CL.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\methods_fi.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\methods_nl.js" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\methods_pt.js" />
     <Content Include="Hrms.Scripts\Plugins\Jquery\jquery.min.js" />
     <Content Include="Hrms.Scripts\Plugins\multi-select\css\multi-select.css" />
     <Content Include="Hrms.Scripts\Plugins\multi-select\img\switch.png" />
@@ -413,7 +353,6 @@
     <Content Include="Hrms.Scripts\AJAX\AjaxControlToolkitSampleSite.zip" />
     <Content Include="Hrms.Scripts\Plugins\Bootstrap-select\bootstrap-select.js.map" />
     <Content Include="Hrms.Scripts\Plugins\Jquery-Datatable\skin\bootstrap\images\Sorting icons.psd" />
-    <Content Include="Hrms.Scripts\Plugins\Jquery-Validation\localization\messages_az" />
     <Content Include="Hrms.Temas\Plugins\Bootstrap-Select\bootstrap-select.css.map" />
     <Content Include="Hrms.Temas\Plugins\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Hrms.Temas\Plugins\fonts\glyphicons-halflings-regular.ttf" />
@@ -437,6 +376,12 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Hrms.Generales\Hrms.General.DataAccess\Hrms.General.DataAccess\Hrms.General.DataAccess.vbproj">
+      <Project>{2347a83f-91de-4c09-b583-3c1d6039b640}</Project>
+      <Name>Hrms.General.DataAccess</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

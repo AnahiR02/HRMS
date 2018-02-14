@@ -32,6 +32,15 @@ Partial Public Class Login
     Protected WithEvents txtUsuario As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
+    '''Control RFV1.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents RFV1 As Global.System.Web.UI.WebControls.RequiredFieldValidator
+    
+    '''<summary>
     '''Control txtContraseña.
     '''</summary>
     '''<remarks>
@@ -39,6 +48,15 @@ Partial Public Class Login
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents txtContraseña As Global.System.Web.UI.WebControls.TextBox
+    
+    '''<summary>
+    '''Control RFV2.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents RFV2 As Global.System.Web.UI.WebControls.RequiredFieldValidator
     
     '''<summary>
     '''Control btnIniciarSesion.

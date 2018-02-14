@@ -38,17 +38,30 @@
                         </span>
                         <div class="form-line">
                             <asp:TextBox ID="txtUsuario" runat="server" CssClass="form-control" placeholder="Usuario"></asp:TextBox>
+
                         </div>
+                        <asp:RequiredFieldValidator ID="RFV1" runat="server"
+                            ControlToValidate="txtUsuario"
+                            ErrorMessage="*Campo Requerido"
+                            ForeColor="Red"
+                            Font-Size="10px">
+                        </asp:RequiredFieldValidator>
                     </div>
                     <div class="input-group">
                         <span class="input-group-addon">
                             <i class="material-icons">lock</i>
                         </span>
                         <div class="form-line">
-                            <asp:TextBox ID="txtContraseña" runat="server" CssClass="form-control" placeholder="Contraseña"></asp:TextBox>
+                            <asp:TextBox ID="txtContraseña" runat="server" CssClass="form-control" placeholder="Contraseña" Type="password"></asp:TextBox>
+
                         </div>
+                        <asp:RequiredFieldValidator ID="RFV2" runat="server"
+                            ControlToValidate="txtContraseña"
+                            ErrorMessage="*Campo Requerido"
+                            ForeColor="Red" 
+                            Font-Size="10px">
+                        </asp:RequiredFieldValidator>
                     </div>
-                    <br />
                     <div class="row">
                         <div class="col-xs-12">
                             <asp:Button ID="btnIniciarSesion" runat="server" Text="Iniciar Sesión" CssClass="btn btn-block bg-blue waves-effect" />
