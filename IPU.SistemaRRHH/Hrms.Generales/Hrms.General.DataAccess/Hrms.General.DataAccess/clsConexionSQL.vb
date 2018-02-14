@@ -18,7 +18,7 @@ Public Class clsConexionSQL
             b_eTipoConexion = TipoBDD.SQL_Server
             b_sTipoConexion = [Enum].GetName(GetType(TipoBDD), TipoBDD.SQL_Server)
 
-            b_sServidor = "TECNOLOGIA03\IPU"
+            b_sServidor = "LAPTOP-Q502H35M\IPU"
             b_sInstancia = ""
             b_sUsuario = "sa"
             b_sPassword = "INPRE09admin"
